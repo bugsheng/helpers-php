@@ -1,0 +1,31 @@
+{
+    "name": "bugsheng/helpers-php",
+	"description": "php string array functions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BugSheng",
+            "email": "bug_sheng@126.com"
+        }
+    ],
+    "require": {
+      "php": "^7.0|^8.0",
+      "ext-json": "*",
+      "ext-iconv": "*"
+    },
+	"autoload": {
+		"psr-4": {
+            "BugSheng\\Normal\\Support\\": "src/Support"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+	},
+	"minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
